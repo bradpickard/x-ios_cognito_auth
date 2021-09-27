@@ -3,23 +3,45 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D2F9CDCBD75800A640A770B /* Pods_Test_Cognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9BEBDFA629F1A9CAB21759 /* Pods_Test_Cognito.framework */; };
 		7919AF1126FF2753009E0604 /* Test_CognitoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919AF1026FF2753009E0604 /* Test_CognitoApp.swift */; };
 		7919AF1326FF2753009E0604 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919AF1226FF2753009E0604 /* ContentView.swift */; };
 		7919AF1526FF2764009E0604 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7919AF1426FF2764009E0604 /* Assets.xcassets */; };
 		7919AF1826FF2764009E0604 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7919AF1726FF2764009E0604 /* Preview Assets.xcassets */; };
+		7919AF2026FF2790009E0604 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919AF1F26FF2790009E0604 /* SignUpView.swift */; };
+		7919AF2226FF2CA7009E0604 /* ConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919AF2126FF2CA7009E0604 /* ConfirmationView.swift */; };
+		7919AF2426FF2E06009E0604 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919AF2326FF2E06009E0604 /* LoginView.swift */; };
+		7919AF2626FF2E9D009E0604 /* SessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7919AF2526FF2E9D009E0604 /* SessionView.swift */; };
+		79256E1A27014891002720E6 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79256E1927014891002720E6 /* ResetPasswordView.swift */; };
+		79256E1C27015392002720E6 /* ConfirmResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79256E1B27015392002720E6 /* ConfirmResetPassword.swift */; };
+		795586D926FF80B90042145F /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 795586D726FF80B90042145F /* amplifyconfiguration.json */; };
+		795586DA26FF80B90042145F /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 795586D826FF80B90042145F /* awsconfiguration.json */; };
+		795586DC26FF89120042145F /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795586DB26FF89120042145F /* SessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D9BEBDFA629F1A9CAB21759 /* Pods_Test_Cognito.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Test_Cognito.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7740776CB999902EB3EC808A /* Pods-Test Cognito.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Cognito.release.xcconfig"; path = "Target Support Files/Pods-Test Cognito/Pods-Test Cognito.release.xcconfig"; sourceTree = "<group>"; };
 		7919AF0D26FF2753009E0604 /* Test Cognito.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Cognito.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7919AF1026FF2753009E0604 /* Test_CognitoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_CognitoApp.swift; sourceTree = "<group>"; };
 		7919AF1226FF2753009E0604 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7919AF1426FF2764009E0604 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7919AF1726FF2764009E0604 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7919AF1926FF2764009E0604 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7919AF1F26FF2790009E0604 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		7919AF2126FF2CA7009E0604 /* ConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmationView.swift; sourceTree = "<group>"; };
+		7919AF2326FF2E06009E0604 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7919AF2526FF2E9D009E0604 /* SessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionView.swift; sourceTree = "<group>"; };
+		79256E1927014891002720E6 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		79256E1B27015392002720E6 /* ConfirmResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmResetPassword.swift; sourceTree = "<group>"; };
+		795586D726FF80B90042145F /* amplifyconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = amplifyconfiguration.json; sourceTree = SOURCE_ROOT; };
+		795586D826FF80B90042145F /* awsconfiguration.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = awsconfiguration.json; sourceTree = SOURCE_ROOT; };
+		795586DB26FF89120042145F /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		93BEF35A043EF9BE52B6F407 /* Pods-Test Cognito.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Test Cognito.debug.xcconfig"; path = "Target Support Files/Pods-Test Cognito/Pods-Test Cognito.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2F9CDCBD75800A640A770B /* Pods_Test_Cognito.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14717C5CB7A5B131372F6366 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D9BEBDFA629F1A9CAB21759 /* Pods_Test_Cognito.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		312AAB6BD950BA0F2256CAE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93BEF35A043EF9BE52B6F407 /* Pods-Test Cognito.debug.xcconfig */,
+				7740776CB999902EB3EC808A /* Pods-Test Cognito.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7919AF0426FF2753009E0604 = {
 			isa = PBXGroup;
 			children = (
 				7919AF0F26FF2753009E0604 /* Test Cognito */,
 				7919AF0E26FF2753009E0604 /* Products */,
+				312AAB6BD950BA0F2256CAE7 /* Pods */,
+				14717C5CB7A5B131372F6366 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +99,15 @@
 				7919AF1426FF2764009E0604 /* Assets.xcassets */,
 				7919AF1926FF2764009E0604 /* Info.plist */,
 				7919AF1626FF2764009E0604 /* Preview Content */,
+				7919AF1F26FF2790009E0604 /* SignUpView.swift */,
+				795586D726FF80B90042145F /* amplifyconfiguration.json */,
+				795586D826FF80B90042145F /* awsconfiguration.json */,
+				7919AF2126FF2CA7009E0604 /* ConfirmationView.swift */,
+				7919AF2326FF2E06009E0604 /* LoginView.swift */,
+				7919AF2526FF2E9D009E0604 /* SessionView.swift */,
+				795586DB26FF89120042145F /* SessionManager.swift */,
+				79256E1927014891002720E6 /* ResetPasswordView.swift */,
+				79256E1B27015392002720E6 /* ConfirmResetPassword.swift */,
 			);
 			path = "Test Cognito";
 			sourceTree = "<group>";
@@ -76,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7919AF1C26FF2764009E0604 /* Build configuration list for PBXNativeTarget "Test Cognito" */;
 			buildPhases = (
+				260BBBFE875C685617FE74B8 /* [CP] Check Pods Manifest.lock */,
 				7919AF0926FF2753009E0604 /* Sources */,
 				7919AF0A26FF2753009E0604 /* Frameworks */,
 				7919AF0B26FF2753009E0604 /* Resources */,
+				4889593106F099D2A5C02716 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +179,56 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795586DA26FF80B90042145F /* awsconfiguration.json in Resources */,
 				7919AF1826FF2764009E0604 /* Preview Assets.xcassets in Resources */,
+				795586D926FF80B90042145F /* amplifyconfiguration.json in Resources */,
 				7919AF1526FF2764009E0604 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		260BBBFE875C685617FE74B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Test Cognito-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4889593106F099D2A5C02716 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Cognito/Pods-Test Cognito-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Test Cognito/Pods-Test Cognito-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Test Cognito/Pods-Test Cognito-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7919AF0926FF2753009E0604 /* Sources */ = {
@@ -139,7 +236,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7919AF1326FF2753009E0604 /* ContentView.swift in Sources */,
+				7919AF2626FF2E9D009E0604 /* SessionView.swift in Sources */,
+				7919AF2226FF2CA7009E0604 /* ConfirmationView.swift in Sources */,
+				79256E1A27014891002720E6 /* ResetPasswordView.swift in Sources */,
+				7919AF2026FF2790009E0604 /* SignUpView.swift in Sources */,
+				7919AF2426FF2E06009E0604 /* LoginView.swift in Sources */,
 				7919AF1126FF2753009E0604 /* Test_CognitoApp.swift in Sources */,
+				79256E1C27015392002720E6 /* ConfirmResetPassword.swift in Sources */,
+				795586DC26FF89120042145F /* SessionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +368,7 @@
 		};
 		7919AF1D26FF2764009E0604 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93BEF35A043EF9BE52B6F407 /* Pods-Test Cognito.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +390,7 @@
 		};
 		7919AF1E26FF2764009E0604 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7740776CB999902EB3EC808A /* Pods-Test Cognito.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
